@@ -29,14 +29,13 @@ Package.on_use(function(api) {
 	api.add_files('lib/codemirror/mode/less/less.js', where);
 	api.add_files('lib/codemirror/mode/lua/lua.js', where);
 	api.add_files('lib/codemirror/mode/markdown/markdown.js', where);
-	api.add_files('lib/codemirror/mode/mysql/mysql.js', where);
+	api.add_files('lib/codemirror/mode/sql/sql.js', where);
 	api.add_files('lib/codemirror/mode/ntriples/ntriples.js', where);
 	api.add_files('lib/codemirror/mode/ocaml/ocaml.js', where);
 	api.add_files('lib/codemirror/mode/pascal/pascal.js', where);
 	api.add_files('lib/codemirror/mode/perl/perl.js', where);
 	api.add_files('lib/codemirror/mode/php/php.js', where);
 	api.add_files('lib/codemirror/mode/pig/pig.js', where);
-	api.add_files('lib/codemirror/mode/plsql/plsql.js', where);
 	api.add_files('lib/codemirror/mode/properties/properties.js', where);
 	api.add_files('lib/codemirror/mode/python/python.js', where);
 	api.add_files('lib/codemirror/mode/r/r.js', where);
